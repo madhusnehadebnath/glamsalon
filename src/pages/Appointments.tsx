@@ -164,7 +164,7 @@ const Appointments = () => {
                       <span>Duration: <strong>{appointment.services.duration} min</strong></span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <span>Total: <strong className="text-primary">${appointment.total_price}</strong></span>
+                      <span>Total: <strong className="text-primary">₹{appointment.total_price}</strong></span>
                     </div>
                     <div className="flex items-center gap-2">
                       <Badge variant={appointment.payment_status === "paid" ? "default" : "secondary"}>

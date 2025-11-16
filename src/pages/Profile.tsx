@@ -116,7 +116,8 @@ const Profile = () => {
                   type="tel"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
-                  placeholder="+1 (555) 000-0000"
+                  placeholder="+91 9876543210"
+                  maxLength={15}
                 />
               </div>
 

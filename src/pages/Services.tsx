@@ -117,7 +117,7 @@ const Services = () => {
                     </div>
                     <div className="flex items-center gap-2 font-semibold text-primary">
                       <DollarSign className="h-4 w-4" />
-                      <span>${service.price}</span>
+                      <span>₹{service.price}</span>
                     </div>
                   </div>
                   <Button
