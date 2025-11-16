@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { supabase } from "@/integrations/supabase/client";
-import { Clock, DollarSign } from "lucide-react";
+import { Clock, IndianRupee } from "lucide-react";
 
 interface Service {
   id: string;
@@ -116,7 +116,7 @@ const Services = () => {
                       <span>{service.duration} min</span>
                     </div>
                     <div className="flex items-center gap-2 font-semibold text-primary">
-                      <DollarSign className="h-4 w-4" />
+                      <IndianRupee className="h-4 w-4" />
                       <span>₹{service.price}</span>
                     </div>
                   </div>
