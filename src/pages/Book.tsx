@@ -134,7 +134,7 @@ const Book = () => {
                 <SelectContent>
                   {services.map((service) => (
                     <SelectItem key={service.id} value={service.id}>
-                      {service.name} - ${service.price} ({service.duration} min)
+                      {service.name} - ₹{service.price} ({service.duration} min)
                     </SelectItem>
                   ))}
                 </SelectContent>
